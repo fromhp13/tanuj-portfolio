@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium personal portfolio of Tanuj Kumar, a Full Stack Developer from Solan, Himachal Pradesh, India."
+    />
+    <meta
+      name="keywords"
+      content="Tanuj Kumar, Full Stack Developer, portfolio, web developer, Solan, Himachal Pradesh"
+    />
+    <meta name="author" content="Tanuj Kumar" />
+    <meta property="og:title" content="Tanuj Kumar | Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer building scalable, elegant, and accessible web experiences."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#030507" />
+    <title>Tanuj Kumar | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader">
+      <div class="loader-ring"></div>
+      <p>Tanuj Kumar</p>
+    </div>
+
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+    <div class="background" aria-hidden="true">
+      <div class="grid"></div>
+      <div class="particles" id="particles"></div>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav glass">
+        <a class="brand" href="#home" aria-label="Tanuj Kumar home">
+          <span>TK</span>
+          <strong>Tanuj Kumar</strong>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☀</button>
+          <button class="icon-btn menu-btn" id="menuToggle" aria-label="Toggle menu">☰</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">✦ Full Stack Developer from Solan, Himachal Pradesh</div>
+          <h1>Tanuj <span>Kumar</span></h1>
+          <h2>Full Stack Developer crafting <strong id="typing"></strong><b>|</b></h2>
+          <p>
+            I build scalable, accessible, and elegant software experiences with a problem-solving
+            mindset, strong fundamentals, and a relentless appetite for learning.
+          </p>
+          <div class="cta-row">
+            <a class="primary-btn" href="#projects">View Projects</a>
+            <a class="secondary-btn glass" href="#contact">Contact Me</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <a href="https://github.com/tanujkumar" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/tanujkumar" aria-label="LinkedIn">in</a>
+            <a href="mailto:tanuj.kumar@example.com" aria-label="Email">@</a>
+          </div>
+        </div>
+
+        <div class="hero-card glass reveal">
+          <div class="card-top">
+            <span>portfolio.js</span>
+            <small>available</small>
+          </div>
+          <pre><code>const developer = {
+  name: "Tanuj Kumar",
+  role: "Full Stack Developer",
+  mindset: ["solve", "learn", "ship"],
+  location: "Solan, HP, India",
+  focus: "Scalable products"
+};</code></pre>
+          <div class="hero-badges">
+            <span>Clean UI</span>
+            <span>Fast</span>
+            <span>Accessible</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading reveal">
+          <p>About</p>
+          <h2>A developer story built on curiosity and craft.</h2>
+          <span>
+            Tanuj Kumar is a Full Stack Developer from Solan who enjoys turning hard problems into
+            dependable, polished software.
+          </span>
+        </div>
+        <div class="bento three">
+          <article class="glass reveal">
+            <i></i>
+            <h3>Problem Solver</h3>
+            <p>I break complex ideas into clear systems, then refine until the product feels effortless.</p>
+          </article>
+          <article class="glass reveal">
+            <i></i>
+            <h3>Continuous Learner</h3>
+            <p>I keep expanding my stack through focused practice, project work, and engineering curiosity.</p>
+          </article>
+          <article class="glass reveal">
+            <i></i>
+            <h3>Scalable Builder</h3>
+            <p>I care about architecture, maintainable code, accessible UI, and details that survive growth.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading reveal">
+          <p>Skills</p>
+          <h2>Strong foundations, animated into focus.</h2>
+          <span>Interactive skill cards highlight the technologies Tanuj is sharpening.</span>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card glass reveal">
+            <h3>Languages</h3>
+            <p>Core foundations for algorithms, systems thinking, and backend logic.</p>
+            <div class="skill" data-level="76"><label>C <span>76%</span></label><div><b></b></div></div>
+            <div class="skill" data-level="82"><label>C++ <span>82%</span></label><div><b></b></div></div>
+            <div class="skill" data-level="86"><label>Python <span>86%</span></label><div><b></b></div></div>
+            <div class="skill" data-level="78"><label>Java <span>78%</span></label><div><b></b></div></div>
+          </article>
+          <article class="skill-card glass reveal">
+            <h3>Web</h3>
+            <p>Semantic markup, responsive layouts, and refined interface details.</p>
+            <div class="skill" data-level="90"><label>HTML <span>90%</span></label><div><b></b></div></div>
+            <div class="skill" data-level="84"><label>CSS <span>84%</span></label><div><b></b></div></div>
+          </article>
+          <article class="skill-card glass reveal">
+            <h3>Engineering</h3>
+            <p>A product-minded approach to performance, reliability, and maintainability.</p>
+            <div class="skill" data-level="88"><label>Problem Solving <span>88%</span></label><div><b></b></div></div>
+            <div class="skill" data-level="80"><label>Scalable Design <span>80%</span></label><div><b></b></div></div>
+            <div class="skill" data-level="92"><label>Learning Velocity <span>92%</span></label><div><b></b></div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading reveal">
+          <p>Projects</p>
+          <h2>Portfolio-grade concepts with production sensibility.</h2>
+          <span>Replace the placeholder links with real deployments as projects go live.</span>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <div class="project-visual commerce"><span>E-Commerce</span></div>
+            <div class="tags"><b>Next.js</b><b>TypeScript</b><b>Tailwind</b><b>Stripe</b></div>
+            <h3>E-Commerce Platform</h3>
+            <p>A conversion-focused storefront with discovery, cart logic, checkout flow, and admin-ready structure.</p>
+            <div class="project-actions"><a href="#">GitHub</a><a href="#">Live Demo</a></div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual student"><span>Student OS</span></div>
+            <div class="tags"><b>Java</b><b>MySQL</b><b>REST</b><b>Charts</b></div>
+            <h3>Student Management System</h3>
+            <p>An academic dashboard for student records, attendance, analytics, and role-aware workflows.</p>
+            <div class="project-actions"><a href="#">GitHub</a><a href="#">Live Demo</a></div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual ai"><span>AI Chat</span></div>
+            <div class="tags"><b>Python</b><b>Next.js</b><b>AI SDK</b><b>Postgres</b></div>
+            <h3>AI Chat Application</h3>
+            <p>A conversational interface with streaming states, prompt history, and accessible keyboard flows.</p>
+            <div class="project-actions"><a href="#">GitHub</a><a href="#">Live Demo</a></div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-visual portfolio"><span>Portfolio</span></div>
+            <div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b><b>SEO</b></div>
+            <h3>Portfolio Website</h3>
+            <p>A premium personal brand system with motion, glassmorphism, SEO, and responsive structure.</p>
+            <div class="project-actions"><a href="#">GitHub</a><a href="#">Live Demo</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline-section">
+        <div class="section-heading reveal">
+          <p>Experience</p>
+          <h2>A future-facing timeline.</h2>
+          <span>An elegant foundation for roles, internships, freelance work, and milestones.</span>
+        </div>
+        <div class="timeline">
+          <article class="glass reveal"><small>2026</small><h3>Open to Full Stack Roles</h3><p>Preparing for production engineering roles while building strong foundations.</p></article>
+          <article class="glass reveal"><small>Now</small><h3>Project-Led Learning</h3><p>Turning concepts into practical products: dashboards, commerce flows, and AI interfaces.</p></article>
+          <article class="glass reveal"><small>Early journey</small><h3>Engineering Foundation</h3><p>Built a disciplined base in C, C++, Python, Java, HTML, and CSS.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p>Achievements</p>
+          <h2>Momentum that compounds.</h2>
+          <span>Animated counters give recruiters quick proof of consistency.</span>
+        </div>
+        <div class="stats">
+          <article class="glass reveal"><strong data-count="12">0</strong><span>Projects Completed</span></article>
+          <article class="glass reveal"><strong data-count="9">0</strong><span>Technologies Learned</span></article>
+          <article class="glass reveal"><strong data-count="850">0</strong><span>Coding Hours</span></article>
+          <article class="glass reveal"><strong data-count="320">0</strong><span>GitHub Contributions</span></article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-heading reveal">
+          <p>Contact</p>
+          <h2>Let’s build something precise and useful.</h2>
+          <span>Send a message, explore Tanuj's profiles, or start a conversation.</span>
+        </div>
+        <div class="contact-grid">
+          <aside class="glass contact-card reveal">
+            <h3>Contact details</h3>
+            <a href="mailto:tanuj.kumar@example.com">tanuj.kumar@example.com</a>
+            <a href="https://github.com/tanujkumar">github.com/tanujkumar</a>
+            <a href="https://www.linkedin.com/in/tanujkumar">linkedin.com/in/tanujkumar</a>
+            <a href="https://maps.google.com/?q=Solan">Solan, Himachal Pradesh, India</a>
+          </aside>
+          <form class="glass contact-form reveal" id="contactForm">
+            <div class="form-row">
+              <label>Name<input name="name" type="text" minlength="2" required placeholder="Your name" /></label>
+              <label>Email<input name="email" type="email" required placeholder="you@example.com" /></label>
+            </div>
+            <label>Message<textarea name="message" minlength="10" required placeholder="Tell me what you want to build..."></textarea></label>
+            <div class="form-footer">
+              <button type="submit">Send Message</button>
+              <span id="formStatus"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Tanuj Kumar. Built with HTML, CSS, JavaScript, and care.</p>
+      <div><a href="https://github.com/tanujkumar">GitHub</a><a href="https://www.linkedin.com/in/tanujkumar">LinkedIn</a></div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
